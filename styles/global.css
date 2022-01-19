@@ -1,45 +1,50 @@
 
 :root {
-    --primary-background: #FFFFF4;
-    --chrome-background: #e3b574;
-    --chrome-background-opaque: #e3b574d1;
-    --secondary-background: #C9B39B;
+    
+    --color1: white;
+    --color2: rgb(245, 219, 102);
+    --color3: white;
+    --color4: #ec54e5;
+    --color5: white;
     --text-color: #32363F;
-    --accent-light: #ED8F11;
+    --accent-light: purple;
     --accent-dark: #C27A18;
     
-    --gutter: 30px;
+    --gutter: 20px;
 }
-
 body {
     /* style */
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--primary-background);
+    background-color: palevioletred;
     color: var(--text-color);
 
     /* layout */
     display: grid;
-    grid-template-rows: 80px 1fr auto;
-
+    grid-template-rows: 80px 2fr auto;
+    
 }
-
-
 
 header {
     display: flex;
     justify-content: flex-start;
-    background-color: var(--chrome-background);
-    box-shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
+    background-color: var(--color4);
+    box-shadow: 0px 10px 10px -12px rgba(0,0,0,0.45);
     padding: 0 var(--gutter);
 }
 
 main {
+    flex-direction: inherit;
     overflow-y: auto;
 }
 
+img{
+    width:200px;
+    height:200px;
+}
 
 footer {
-    background-color: var(--chrome-background-opaque);
-    padding: 10px var(--gutter);
+    background-color:purple;
+    color: lightgrey;
+    padding: 5px var(--gutter);
     align-self: stretch;
 }
