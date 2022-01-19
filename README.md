@@ -24,3 +24,20 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+
+Plan:
+- I will have my name in the title 
+- create an about section, hobbies, projects, and fave animals
+- already written out answers to the information requested
+- styling wise layered styling rounded sections some spacing natural color scheme + google fonts
+commit as we go!
+submit pull request at end 
+
+add html content first 
+then css
+then javascript 
+
+what do i want to be interactive? thinking 
+what do i want static?
+any events? click to see my projects? 
